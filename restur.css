@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gainsboro;
+    height: auto;
+    
+}
+
+#par1{
+    margin-top: 40px;
+    
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#hdr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-title{
+    
+    height: 75px;
+}
+
+
+
+
+
+#hdr li{
+    list-style-type: none;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .5s;
+    margin-right: 30px;
+}
+
+#hdr li:hover {
+    background-color:white;
+    
+}
+
+a{
+    font-size: small;
+    text-decoration: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-title{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+h3{
+    margin-left: 3px;
+    color: tomato;
+}
+
+.all{
+    margin-top: 4%;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.all>div{
+    background-color: white;
+    width: 40%;
+    height: 440px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    box-shadow: 0 0px 20px .5px black ;
+    transition: .8s;
+    
+}
+
+.all>div:hover{
+    transform: scale(.8,.8);
+    border: none;
+}
+
+#vetro>div{
+   
+    background-image: linear-gradient(to top,#000, rgb(2, 70, 2));
+}
+#black-white>div{
+    background-image: linear-gradient(#000, white);
+}
+#black-red>div{
+    background-color: #000;
+}
+#blue>div{
+    background-color: rgb(5, 5, 214);
+}
+
+#gris>div{
+    background-color: gray;
+}
+
+#gris2>div{
+    background-color: rgb(96, 95, 95);
+}
+
+#l9irch>div{
+    background-color: blue;
+}
+
+
+.gris2>img{
+    margin-left: 35%;
+    margin-top:-15px ;
+    margin-bottom: 7px;
+}
+
+
+
+h4{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.axessoir{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+}
+.axessoir>div{
+    
+    width: 20%;
+    height: 60px;
+    margin: 1px;
+    margin-right: 5px;
+    background-color: red;
+}
+
+.axessoir>div>img{
+    box-shadow: 0 0px 20px .5px black ;
+    border-radius: 5px;
+}
+footer{
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+footer>div{
+    height: 300px;
+    
+   
+}
+footer>div{
+    margin-top: 17px;
+}
+#ftr i{
+    color: gray;
+}
+
+#ftr{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+   
+  
+
+}
+#ftr>li{
+    margin-top: 15px;
+    
+}
+
+
+
+.fa-brands fa-facebook{
+    background-color: red;
+}
+
+.sh350{
+    display: inline-block;
+   background-color: red;
+   margin-top: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    .all{
+        display: block;
+        height: 1000px;
+        
+        width: 100%;
+        text-align: center;
+    }
+    .all>div{
+        width:70% ;
+        margin-top: 30px;
+        margin-left: 72px;
+        
+        
+    }
+ 
+    
+
+    header{
+    height: 60px;
+    
+    background-color: black;
+    width: 100%;
+
+}
+.img-title>img{
+    width: 60px;
+}
+
+menu{
+    height: 60px;
+    
+}
+ul{
+    height: 40px;
+    margin-right:40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+ul li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: transparent;
+    
+    border-radius: 5px;
+    transition: .5s;
+}
+.gris2{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.gris2>img{
+    width: 190px;
+}
+.axessoir{
+    margin-top: 39px;
+    
+}
+.axessoir>div{
+    
+    width: 15%;
+    height: 50px;
+    margin: 8px;
+    margin-right: 8px;
+    background-color: red;
+}
+.axessoir>div>img{
+    width: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+#fb{
+    color: gainsboro;
+    margin-top: 10px;
+}
+
+#button{
+    background-color: red;
+    padding: 20px;
+    margin-left: 47.5%;
+}
+
+#button>a{
+    color: #fff;
+}
